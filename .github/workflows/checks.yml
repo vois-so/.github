@@ -1,0 +1,10 @@
+name: checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  public-checks:
+    uses: ./.github/workflows/public-checks.yml
