@@ -14,12 +14,14 @@ The Vois Studio app is closed source. The repositories in this organization are 
 | [speech-endpoint](https://github.com/vois-so/speech-endpoint) | Use Vois Studio voices in apps that use the OpenAI speech API, for example open-notebook. |
 | [video-voiceover](https://github.com/vois-so/video-voiceover) | Start a Remotion or HyperFrames video with a Vois Studio voiceover. A transcript check makes new takes of incorrect lines, and the captions follow the words. |
 | [article-narrator](https://github.com/vois-so/article-narrator) | Add an audio version of each post and a small player to a blog or a documentation site. |
+| [homebrew-tap](https://github.com/vois-so/homebrew-tap) | Install and update Vois Studio on an Apple Silicon Mac with one command: `brew install --cask vois-so/tap/vois-studio`. |
 
 The [roadmap](https://github.com/vois-so/vois-studio/blob/main/ROADMAP.md) shows the next repositories.
 
 ## Get Vois Studio
 
 - [Download Vois Studio](https://vois.so/download?utm_source=github&utm_medium=org-profile&utm_campaign=oss) for an Apple Silicon Mac or for Windows.
+- On an Apple Silicon Mac, you can also use Homebrew: `brew install --cask vois-so/tap/vois-studio`.
 - The Free plan has no time limit. It is for personal and non-commercial use.
 - [Compare the plans](https://vois.so/pricing?utm_source=github&utm_medium=org-profile&utm_campaign=oss).
 - Speak with other users on [Discord](https://discord.gg/7e7fnE55Nh).
