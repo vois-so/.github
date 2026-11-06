@@ -13,6 +13,7 @@ The Vois Studio app is closed source. The repositories in this organization are 
 | [agent-voice](https://github.com/vois-so/agent-voice) | Make Claude Code, Codex, Cursor or Gemini CLI speak a short summary at the end of a task. Operates on the Free plan. |
 | [speech-endpoint](https://github.com/vois-so/speech-endpoint) | Use Vois Studio voices in apps that use the OpenAI speech API, for example open-notebook. |
 | [video-voiceover](https://github.com/vois-so/video-voiceover) | Start a Remotion or HyperFrames video with a Vois Studio voiceover. A transcript check makes new takes of incorrect lines, and the captions follow the words. |
+| [article-narrator](https://github.com/vois-so/article-narrator) | Add an audio version of each post and a small player to a blog or a documentation site. |
 
 The [roadmap](https://github.com/vois-so/vois-studio/blob/main/ROADMAP.md) shows the next repositories.
 
