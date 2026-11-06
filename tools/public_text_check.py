@@ -100,7 +100,10 @@ def main(argv: list[str]) -> int:
     patterns = allow_patterns(root)
     findings = 0
     for path in files:
-        rel = path.relative_to(root).as_posix() if path.is_absolute() else path.as_posix()
+        try:
+            rel = path.resolve().relative_to(root.resolve()).as_posix()
+        except ValueError:
+            rel = path.as_posix()
         if any(fnmatch.fnmatch(rel, p) for p in patterns):
             continue
         try:
